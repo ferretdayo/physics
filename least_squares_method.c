@@ -70,8 +70,8 @@ int main(){
 	printf("yの平均2乗誤差の値の値は\nσy^2 = %f\n",miss_y_2);
 
 	printf("これより、\n\nイプシロンa = %f\nイプシロンb = %f\n\n",ip_a,ip_b);
-
-	printf("よって確率誤差を含めると、\n\na = %.3f±%.3f\nb = %.3f±%.3f\n\n",a,ip_a,b,ip_b);
+	//変更する場合以下を変えてください
+	printf("よって確率誤差を含めると、\n\na = %.4f±%.4f\nb = %.4f±%.4f\n\n",a,ip_a,b,ip_b);
 
 	return 0;
 
